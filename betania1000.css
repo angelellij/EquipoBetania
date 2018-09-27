@@ -107,6 +107,15 @@ main{
 		top:4vw;
 		left:7vw;
 	}
+	
+		#slogan{
+		font-size:3vw;
+		color:#db8a51;
+		font-family: roboto;
+		position:absolute;
+		top:10vw;
+		left:7vw;
+	}
 
 	#quienes{
 		position:relative;
