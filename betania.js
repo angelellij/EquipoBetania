@@ -9,11 +9,16 @@ var smma = 1928*w/1295
 console.log(w)
 console.log(h)
 
-$(document).ready(function(){
-	$("header").on("click","img",function(){
+$(window).on('click', function(){
+		$("header").on("click","img",function(){
 		$('#aanav').toggleClass('closed')
 	});
 })
+
+
+
+
+
 
 if (w > 800){
 
