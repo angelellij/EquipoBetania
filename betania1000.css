@@ -110,11 +110,14 @@ main{
 	
 		#slogan{
 		font-size:3vw;
-		color:#db8a51;
+		color:#ffffff;
 		font-family: roboto;
 		position:absolute;
-		top:10vw;
-		left:7vw;
+		top:16vw;
+		left:0vw;
+		text-align:center;
+		font-style:italic;
+		line-height:3.5vw;
 	}
 
 	#quienes{
@@ -164,17 +167,6 @@ main{
 	}
 
 	#vision{
-		margin:0;
-		padding:0;
-		width:25vw;
-		height:300px;
-		position:absolute;
-		top:22vw;
-		left:37vw;
-		text-align:center;
-	}
-
-	#valores{
 		margin:0;
 		padding:0;
 		width:25vw;
