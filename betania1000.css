@@ -402,10 +402,23 @@ header{
 
 .navi{
 		margin:-1px;
+		font-size:30px;
 		padding:25px;
 		background-color:white;
 		z-index:12;
 	}
+.divi{
+	display:block;
+	padding:1px;
+	background-color:gray;
+}
+
+.divitydiv{
+	padding-left:180px;
+	padding-right:180px;
+	background-color:white;
+	display:block;
+}
 	
 		#inicio{
 		position:relative;
