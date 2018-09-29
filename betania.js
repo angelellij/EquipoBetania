@@ -26,23 +26,16 @@ if (w > 800){
 		var wScroll = $(this).scrollTop();
 
 		$('#titulos').css({
-		'transform': 'translate(0px,'+ wScroll/si +'%)'
+		'transform': 'translate(0px,'+ wScroll/3 +'%)'
 		});
 
 		console.log(wScroll)
 
-		if(wScroll> $('#quienesp').offset().top && wScroll< $('#servicios').offset().top) {
-		$('#mision').css({
+		if(wScroll> $('#mvv').offset().top-400 && wScroll< $('#mvv').offset().top+100) {
+		$('#textmvv').css({
 		'transform': 'translate(0px,'+(wScroll-1560)/sm +'%)'
 		});
 		
-		$('#vision').css({
-		'transform': 'translate(0px,'+(wScroll-1560)/sm +'%)'
-		});
-		
-		$('#valores').css({
-		'transform': 'translate(0px,'+(wScroll-1560)/sm +'%)'
-		});
 		}
 	});
 }
