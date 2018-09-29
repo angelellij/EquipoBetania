@@ -156,7 +156,7 @@ aside{
 }
 
 .barra:hover{
-	background-color:#f4f4f4;
+	background-color:#fffbf0;
 } 
 
 	#inicio{
@@ -209,8 +209,18 @@ aside{
 		line-height:3.5vw;
 	}
 
+	.hm{
+	font-size:40px;
+	font-weight:bold;
+	color:#fff8e6;
+	}
+	
+	.tv{
+	color:#fffbf0;
+	}
+	
 	#propuestas{
-		background-color:#fffbf0
+		background-color:#fffbf0;
 	}
 	
 	.special{
@@ -232,7 +242,6 @@ aside{
 		vertical-align:middle;
 	}
 	
-	
 	.rightcol{
 		position:absolute;
 		right:0%;
@@ -252,6 +261,16 @@ aside{
 		padding:2%;
 		text-align:center;
 		vertical-align:middle;
+	}
+	
+	.leftcol:hover{
+		background-color:#fff8e6;
+	}
+	.rightcol:hover{
+		background-color:#fff8e6;
+	}
+	.midcol:hover{
+		background-color:#fff8e6;
 	}
 	
 	#mvv{
