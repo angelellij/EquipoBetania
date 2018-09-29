@@ -374,6 +374,11 @@ header{
 	display:none;
 }
 
+#aanav{
+	position:relative;
+	top:100px;
+}
+
 .closed{
 	display:none;
 }
@@ -396,33 +401,16 @@ header{
 	padding-bottom:23px;
 }
 
-.barra{
-	top:-80px;
-	float:right;
-	font-size:20px;
-	letter-spacing:4px;
-	font-weight:lighter;
-	z-index:10;
-	margin:auto;
-	height:60px;
-}	
-
 .nav{
 
     text-decoration:none;
-	color:black;
+	text-align:center;
+	font-weight:light;
+	color:#72430d;
 	height:60px;
 	margin:0;
 }
 
-.navtext{
-	margin-top:auto;
-	margin-bottom:auto;
-	padding-right:20px;
-	padding-left:20px;
-	padding-top:13px;
-	padding-bottom:13px;
-}
 
 		#inicio{
 		position:relative;

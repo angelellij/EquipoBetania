@@ -15,11 +15,6 @@ $(window).on('click', function(){
 	});
 })
 
-
-
-
-
-
 if (w > 800){
 
 	$(window).scroll(function(){
