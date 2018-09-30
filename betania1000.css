@@ -93,7 +93,7 @@ main{
 
 section{
 	position:relative;
-	height:730px;
+	height:100vh;
 	background-color:white;
 	margin:0px;
 	padding:1px;
@@ -165,7 +165,7 @@ aside{
 		width:100%;
 		margin:0;
 		padding:0;
-		height:800px;
+		height:100vh;
 		background-image: url("Inicio.jpg");
 		background-repeat:round;
 		background-attachment:fixed;
@@ -342,7 +342,7 @@ aside{
 }
 	
 	.navi:active{
-		background-color:#eeeeee;
+		background-color:#fffbf0;
 	}
 	
 header{
@@ -469,7 +469,7 @@ header{
 }
 	
 section{
-	height:650px;
+	height:100vh;
 	padding:10px;
 	background-color:#fffbf0
 }
@@ -483,7 +483,7 @@ article{
 		margin:0;
 		padding:0;
 		position:relative;
-		height:800px;
+		height:100vh;
 		background-image:url("Misionvert.jpg");
 		background-repeat:round;
 		background-attachment:fixed;
