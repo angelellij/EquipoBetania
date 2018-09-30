@@ -9,11 +9,19 @@ var smma = 1928*w/1295
 console.log(w)
 console.log(h)
 
-$(window).on('click', function(){
-		$("header").on("click","img",function(){
+$(document).ready(function(){
+	$("#menunav").click(function(){
 		$('#aanav').toggleClass('closed')
 	});
-})
+	
+		$('main').click(function(){
+		$('#aanav').addClass('closed')
+	});
+		$('#aanav').click(function(){
+		$('#aanav').addClass('closed')
+	});
+});
+
 
 if (w > 800){
 
